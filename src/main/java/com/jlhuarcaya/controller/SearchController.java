@@ -17,7 +17,7 @@ public class SearchController {
   
   @Autowired
   private SearchService searchService;
-
+  
   @GetMapping("/word")
   public @ResponseBody Output getWord(@RequestBody Input in) {
     Output out = new Output();
