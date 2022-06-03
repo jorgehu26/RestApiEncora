@@ -14,7 +14,7 @@ import com.jlhuarcaya.service.SearchService;
 @RestController
 @RequestMapping("/api")
 public class SearchController {
-  
+    
   @Autowired
   private SearchService searchService;
   

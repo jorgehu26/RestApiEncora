@@ -17,7 +17,5 @@ public class Input {
   public void setWord(String word) {
     this.word = word;
   }
-  
-  
-
+    
 }

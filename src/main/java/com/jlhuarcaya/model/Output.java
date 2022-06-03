@@ -5,7 +5,7 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Output {
-
+  
   @JsonProperty("Amount of permutations found")
   private Integer amount;
   @JsonProperty("Permutations found")

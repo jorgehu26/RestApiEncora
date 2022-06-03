@@ -30,7 +30,7 @@ public class SearchService {
         permutation.add(word);
       }
     }
-    
+      
     out.setAmount(amount);
     out.setPermutation(permutation);
     
